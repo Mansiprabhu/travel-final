@@ -1,0 +1,79 @@
+/* Dashboard header */
+.dashboard-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  color: white;
+  padding: 20px 40px;
+  font-size: 13px;
+  font-weight: bold;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure page content starts below header */
+.page-container {
+  margin-top: 100px; /* Adjust the margin to compensate for the fixed header height */
+  padding: 20px;
+}
+
+/* Form wrapper */
+.form-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid white; /* White border around the form */
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Heading for the form (Center aligned) */
+.form-heading {
+  font-size: 28px;
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px;
+  color: black;
+}
+
+/* Form container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for each select and input element */
+form select, form input {
+  margin-bottom: 15px; /* Add margin to separate each element */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%; /* Make form elements take up the full width */
+}
+
+/* Ensure the date input has the same size as other inputs */
+form input[type="date"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Button styling */
+form button {
+  padding: 12px 20px;
+  background-color: #0072ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #005bb5;
+}

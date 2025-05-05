@@ -1,0 +1,133 @@
+/* Only center the login page, not the entire app */
+.login-page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  }
+  
+  /* Brand logo/title */
+  .brand {
+    color: rgb(26, 28, 161);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Login box styling */
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    color: #0077b6;
+    margin-bottom: 1rem;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #f0f0f0;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #0077b6;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-container button:hover {
+    background-color: #005f87;
+  }
+  
+/* Register page styling */
+.registration-page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+}
+
+/* Brand logo/title */
+.registration-brand {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Registration box styling */
+.registration-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.registration-container h2 {
+    color: #0077b6;
+    margin-bottom: 1rem;
+}
+
+/* Input fields styling for registration */
+.registration-container input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #f0f0f0;
+}
+
+/* Register button styling */
+.registration-container button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #0077b6;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Hover effect on register button */
+.registration-container button:hover {
+    background-color: #005f87;
+}
+/* Style for the register link */
+.register-link {
+    background: none;
+    color: black; /* Change color to black */
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+  }
+  
+  .register-link:hover {
+    color: #005bb5; /* Optional: Add a hover effect color */
+  }
+  
